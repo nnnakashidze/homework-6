@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+.maincontainer {
+  width: 1440px;
+  height: 900px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 50px;
+  padding: 100px 45px;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 0px 141px 200px -80px #193a4b4d;
+}
+.formcontainer {
+  width: 545px;
+}
+.formcontainer h1 {
+  font-size: 54px;
+}
+.formcontainer .touchcontainer {
+  color: #dd5471;
+}
+.formcontainer .discription {
+  margin: 20px 0px 40px;
+  font-size: 14px;
+  color: #000000;
+}
+.form .inputbox {
+  width: 545px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #828282;
+}
+.form .dropdown {
+  width: 545px;
+  height: 50px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.dropdown select {
+  width: 545px;
+  height: 50px;
+  font-size: 14px;
+  border: 1px solid #828282;
+}
+.dropdown .arrow {
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  width: 6px;
+  height: 12px;
+}
+.form .sendbutton {
+  width: 545px;
+  height: 50px;
+  background: #dd5471;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.contactinfo {
+  display: flex;
+  margin-top: 40px;
+  font-size: 13px;
+  width: 545px;
+  gap: 50px;
+}
+.contactitem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.icon {
+  height: 28px;
+  width: 28px;
+}
+.contacttext {
+  display: flex;
+  flex-direction: column;
+}
+.contacttext .title {
+  font-size: 13px;
+  font-weight: bold;
+  margin: o;
+}
+.contacttext .info {
+  font-size: 13px;
+  color: #dd5471;
+}
+.mapcontainer {
+  width: 545px;
+  height: 700px;
+}
+.bluebackground {
+  right: 0;
+  top: 0;
+  position: absolute;
+  width: 419px;
+  height: 100%;
+  background-color: #183a4a;
+  border-radius: 0 50px 50px 0;
+}
+.mapcontainer img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  right: 150px;
+  gap: 50px;
+}
